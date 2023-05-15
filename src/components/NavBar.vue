@@ -46,9 +46,7 @@
               data-out="fadeOutUp"
             >
               <li>
-                <router-link to="/blog" replace>
-                  <div class="menu-name">Blog</div>
-                </router-link>
+                <a class="smooth-menu" href="#blog">Blog</a>
               </li>
               <li>
                 <a class="smooth-menu" href="#home">Home</a>
@@ -89,10 +87,10 @@
         <div class="menu">
           <ul class="nav">
             <li>
-              <router-link to="/blog" replace>
+              <a class="smooth-menu" href="#blog">
                 <i class="fas fa-file-alt"></i>
                 <div class="menu-name">Blog</div>
-              </router-link>
+              </a>
             </li>
             <li>
               <a class="smooth-menu" href="#home">
