@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "imageSrc": "../_nuxt/assets/img/blogimg/proj_up_1303/proj_up_1.png",
+    "title": "Projects Update",
+    "date": "13 March, 2023",
+    "dataBsTarget": "#projectUpdate1303Modal"
+  },
+  {
+    "id": 2,
+    "imageSrc": "../_nuxt/assets/img/blogimg/webdemo/cv_portfolio_capt.gif",
+    "title": "Web Demo",
+    "date": "16 March, 2023",
+    "dataBsTarget": "#webDemoModal"
+  },
+  {
+    "id": 3,
+    "imageSrc": "../_nuxt/assets/img/blogimg/proj_up_2803/post_img.jpg",
+    "title": "Projects Update",
+    "date": "28 March, 2023",
+    "dataBsTarget": "#projectUpdate2803Modal"
+  }
+]

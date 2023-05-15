@@ -1,0 +1,3 @@
+blog.json -> 800x600
+
+blogmodal.json -> 1500x700
