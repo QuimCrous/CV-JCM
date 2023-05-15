@@ -2,7 +2,7 @@
   {
     "id": 1,
     "modalId": "doneModal",
-    "bigImgSrc": "../_nuxt/assets/img/portfolioimg/web_task_1.png",
+    "bigImgSrc": "assets/img/portfolioimg/web_task_1.png",
     "projectType": "Website task app",
     "date": "24 February, 2023",
     "title": "DONE! task app",
@@ -24,15 +24,15 @@
     "bigDescription": [
       "The web has: A SignUp and SignIn components that allows the user to register and connects to the database in Supabase to save the user. A Home view showing the Nav component, NewTask, and TaskItem. This allows the user to move between the different views with the Nav, add new tasks and display the tasks that are saved in the database that are linked to the user. A Profile view that displays an avatar and other user data and is connected to the Edit view that allows you to upload an image to change the avatar and other fields displayed in the Profile view. A Calendar view that, apart from the Nav, has a calendar that shows the days and if tasks have been completed that day, the color of that day is highlighted. It also has a dropdown selector that shows us an image that represents a status response from HTTP calls. This is connected to the HTTP.cats website."
     ],
-    "smallImgSrcOne": "../_nuxt/assets/img/portfolioimg/web_task_2.png",
-    "smallImgSrcTwo": "../_nuxt/assets/img/portfolioimg/web_task_4.png",
+    "smallImgSrcOne": "assets/img/portfolioimg/web_task_2.png",
+    "smallImgSrcTwo": "assets/img/portfolioimg/web_task_4.png",
     "url": "https://task-web-ironhack.vercel.app/auth/login",
     "link": "https://task-web-ironhack.vercel.app/auth/login"
   },
   {
     "id": 2,
     "modalId": "onlineBankApiModal",
-    "bigImgSrc": "../_nuxt/assets/img/portfolioimg/online_bank_api_2.png",
+    "bigImgSrc": "assets/img/portfolioimg/online_bank_api_2.png",
     "projectType": "online bank api",
     "date": "28 October, 2022",
     "title": "Online Bank",
@@ -57,15 +57,15 @@
       "A package containing all the repositories of all model classes has been added, and another package named Security contains the CustomUserDetails and the SecurityConfiguration classes used for security (Login accounts). The Service package contains all the services and interfaces relative to the models. The AccountHolderService, AdminService, and ThirdPartyUserService contain methods with the logic needed to make the API functional.",
       "The Controllers package contains different controllers used to connect the methods done in the services with a URL, so we can interact with the API using a browser or other applications. A Test package has been created to test the different methods to ensure they work correctly and throw the expected errors. Security has also been tested by adding a validation in the tests to prove the user was in the database. Some methods are not tested because they are not needed to make the API work. Lastly, the project includes a bankapi.sql with the schema and a pom.xml file with all the dependencies."
     ],
-    "smallImgSrcOne": "../_nuxt/assets/img/portfolioimg/online_bank_api.png",
-    "smallImgSrcTwo": "../_nuxt/assets/img/portfolioimg/online_bank_api_3.png",
+    "smallImgSrcOne": "assets/img/portfolioimg/online_bank_api.png",
+    "smallImgSrcTwo": "assets/img/portfolioimg/online_bank_api_3.png",
     "url": "https://github.com/QuimCrous/online-bank-api",
     "link": "GitHub Repo Link"
   },
   {
     "id": 3,
     "modalId": "circleWebModal",
-    "bigImgSrc": "../_nuxt/assets/img/portfolioimg/circle_web_1.png",
+    "bigImgSrc": "assets/img/portfolioimg/circle_web_1.png",
     "projectType": "Elemental web",
     "date": "3 February, 2022",
     "title": "Circle Web",
@@ -85,15 +85,15 @@
     "bigDescription": [
       "For this project, I have used HTML and CSS to style the web page and JavaScript for the logic that gives it dynamism. In this case, I have not used any external libraries or frameworks. The code is written using Visual Studio Code, along with Git for version control. I have used the JSON Placeholder web to obtain data to feed my web page. Additionally, along with Git, this project is uploaded to my GitHub repository, and I use Vercel to host the page on the web."
     ],
-    "smallImgSrcOne": "../_nuxt/assets/img/portfolioimg/circle_web_2.png",
-    "smallImgSrcTwo": "../_nuxt/assets/img/portfolioimg/circle_web_3.png",
+    "smallImgSrcOne": "assets/img/portfolioimg/circle_web_2.png",
+    "smallImgSrcTwo": "assets/img/portfolioimg/circle_web_3.png",
     "url": "https://midterm-ironhack-jade.vercel.app",
     "link": "https://midterm-ironhack-jade.vercel.app"
   },
   {
     "id": 4,
     "modalId": "codeWarsModal",
-    "bigImgSrc": "../_nuxt/assets/img/portfolioimg/codewars_2.png",
+    "bigImgSrc": "assets/img/portfolioimg/codewars_2.png",
     "projectType": "Java language project",
     "date": "In Progress",
     "title": "Codewars Project",
@@ -113,15 +113,15 @@
     "bigDescription": [
       "This project is constantly in progress since every day I upload the solution of a few 'katas'. Codewars offers a good way to practice your programming skills across a bunch of languages, which helps to maintain or improve one's skills."
     ],
-    "smallImgSrcOne": "../_nuxt/assets/img/portfolioimg/codewars_3.png",
-    "smallImgSrcTwo": "../_nuxt/assets/img/portfolioimg/codewars_4.png",
+    "smallImgSrcOne": "assets/img/portfolioimg/codewars_3.png",
+    "smallImgSrcTwo": "assets/img/portfolioimg/codewars_4.png",
     "url": "https://github.com/QuimCrous/codewars_java_solutions",
     "link": "GitHub Repo Link"
   },
   {
     "id": 5,
     "modalId": "crmRenegadosModal",
-    "bigImgSrc": "../_nuxt/assets/img/portfolioimg/crm_renegados_2.png",
+    "bigImgSrc": "assets/img/portfolioimg/crm_renegados_2.png",
     "projectType": "Java language project",
     "date": "21 October, 2022",
     "title": "CRM LBL Trucking Company",
@@ -141,15 +141,15 @@
     "bigDescription": [
       "As a team, we improved a lot together throughout the bootcamp, and this project is the demonstration of everything we learned. We used our skills to create a program that would allow us to keep track of sales from when it is just a contact until the sale is closed. In addition, it has a section where tests are performed on the functionality of the application to verify that everything works correctly."
     ],
-    "smallImgSrcOne": "../_nuxt/assets/img/portfolioimg/crm_renegados_3.png",
-    "smallImgSrcTwo": "../_nuxt/assets/img/portfolioimg/crm_renegados_4.png",
+    "smallImgSrcOne": "assets/img/portfolioimg/crm_renegados_3.png",
+    "smallImgSrcTwo": "assets/img/portfolioimg/crm_renegados_4.png",
     "url": "https://github.com/QuimCrous/Homework3",
     "link": "GitHub Repo Link"
   },
   {
     "id": 6,
     "modalId": "j2dHackatonModal",
-    "bigImgSrc": "../_nuxt/assets/img/portfolioimg/hackaton2022/hack_2.png",
+    "bigImgSrc": "assets/img/portfolioimg/hackaton2022/hack_2.png",
     "projectType": "Java language project",
     "date": "31 October, 2022",
     "title": "Hackaton Jump2Digital",
@@ -174,8 +174,8 @@
       "TASK 3: To retrieve all companies ordered by their founded date, I added a simple JPA query in the repository. Then, I created a service and a controller method to access this data. Finally, I checked the result in Postman by accessing the endpoint I created to retrieve data by founded date (GET URL: /get-companies-by-founded).",
       "TASK 4: In this task, I created three JPQL queries to retrieve a list of object arrays containing the requested information. The first query returns the number of companies by industry, the second returns the number of companies by size, and the last one returns the number of companies by their founded date. Additionally, I created a method in the service that switches between the three queries based on the value of a string method argument. In the controller, I added a request parameter that takes a string value, so that with the same endpoint, you can access one of the three queries at a time. Finally, I checked the result in Postman by accessing the endpoint I created for retrieving data by industry, size, or founded date (GET URL: /count-by)."
     ],
-    "smallImgSrcOne": "../_nuxt/assets/img/portfolioimg/hackaton2022/hack_3.png",
-    "smallImgSrcTwo": "../_nuxt/assets/img/portfolioimg/hackaton2022/hack_4.png",
+    "smallImgSrcOne": "assets/img/portfolioimg/hackaton2022/hack_3.png",
+    "smallImgSrcTwo": "assets/img/portfolioimg/hackaton2022/hack_4.png",
     "url": "https://github.com/QuimCrous/hackaton2022",
     "link": "GitHub Repo Link"
   }
