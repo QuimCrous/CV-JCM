@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="about">
     <!-- Start About 
       ============================================= -->
     <div id="about" class="about-style-six-area default-padding-top">

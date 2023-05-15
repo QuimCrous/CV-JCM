@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="contact">
     <!-- Start Contact Area 
       ============================================= -->
     <div

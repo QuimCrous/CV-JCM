@@ -96,31 +96,51 @@
               </a>
             </li>
             <li>
-              <a class="smooth-menu" href="#blog">
+              <a
+                class="smooth-menu"
+                href="#"
+                @click.prevent="smoothScroll('blog')"
+              >
                 <i class="fas fa-file-alt"></i>
                 <div class="menu-name">Blog</div>
               </a>
             </li>
             <li>
-              <a class="smooth-menu" href="#services">
+              <a
+                class="smooth-menu"
+                href="#"
+                @click.prevent="smoothScroll('services')"
+              >
                 <i class="fas fa-cog"></i>
                 <div class="menu-name">Services</div>
               </a>
             </li>
             <li>
-              <a class="smooth-menu" href="#portfolio">
+              <a
+                class="smooth-menu"
+                href="#"
+                @click.prevent="smoothScroll('portfolio')"
+              >
                 <i class="fas fa-briefcase"></i>
                 <div class="menu-name">Portfolio</div>
               </a>
             </li>
             <li>
-              <a class="smooth-menu" href="#about">
+              <a
+                class="smooth-menu"
+                href="#"
+                @click.prevent="smoothScroll('about')"
+              >
                 <i class="fas fa-user"></i>
                 <div class="menu-name">About</div>
               </a>
             </li>
             <li>
-              <a class="smooth-menu" href="#contact">
+              <a
+                class="smooth-menu"
+                href="#"
+                @click.prevent="smoothScroll('contact')"
+              >
                 <i class="fas fa-comments"></i>
                 <div class="menu-name">Contact</div>
               </a>
@@ -128,7 +148,9 @@
           </ul>
         </div>
         <div class="logo">
-          <a href="#home"><img src="../assets/img/Logo1.png" alt="Logo" /></a>
+          <a href="#" @click.prevent="smoothScroll('home')"
+            ><img src="../assets/img/Logo1.png" alt="Logo"
+          /></a>
         </div>
       </div>
     </header>
