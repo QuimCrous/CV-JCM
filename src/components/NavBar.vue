@@ -34,7 +34,6 @@
               type="button"
               class="navbar-toggle"
               data-target="#navbar-menu"
-              @click="collapseNav"
             >
               <i class="fa fa-times"></i>
             </button>
@@ -111,7 +110,9 @@
     <header class="header-fixed">
       <div class="f-flex">
         <div class="logo">
-          <a href="#home"><img src="../assets/img/Logo1.png" alt="Logo" /></a>
+          <a href="#" @click.prevent="smoothScroll('home')"
+            ><img src="../assets/img/Logo1.png" alt="Logo"
+          /></a>
         </div>
         <div class="menu">
           <ul class="nav">
