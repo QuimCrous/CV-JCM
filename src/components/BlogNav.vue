@@ -46,7 +46,7 @@
               data-out="fadeOutUp"
             >
               <li>
-                <router-link to="/">
+                <router-link to="/" replace>
                   <div class="menu-name">Home</div>
                 </router-link>
               </li>
@@ -77,7 +77,7 @@
         <div class="menu">
           <ul class="nav">
             <li>
-              <router-link to="/">
+              <router-link to="/" replace>
                 <i class="fas fa-home"></i>
                 <div class="menu-name">Home</div>
               </router-link>
