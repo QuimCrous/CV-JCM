@@ -86,7 +86,11 @@
         <div class="menu">
           <ul class="nav">
             <li>
-              <a class="smooth-menu" href="#home" @click.prevent>
+              <a
+                class="smooth-menu"
+                href="#"
+                @click.prevent="smoothScroll('home')"
+              >
                 <i class="fas fa-home"></i>
                 <div class="menu-name">Home</div>
               </a>
@@ -144,6 +148,11 @@ const collapseNav = () => {
   }
   boolNav.value = !boolNav.value;
 };
+
+function smoothScroll(target) {
+  const element = document.getElementById(target);
+  element.scrollIntoView({ behavior: "smooth" });
+}
 </script>
 
 <style lang="scss" scoped></style>

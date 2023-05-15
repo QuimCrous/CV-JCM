@@ -1,7 +1,7 @@
 <template>
   <!-- Start Banner 
         ============================================= -->
-  <div class="auto-height bg-fixed banner-style-one">
+  <div id="home" class="auto-height bg-fixed banner-style-one">
     <div class="container">
       <div class="double-items">
         <div class="row align-center">
