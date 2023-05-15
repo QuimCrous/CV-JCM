@@ -100,6 +100,7 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
 const boolNav = ref(false);
 const collapseClass = ref("");
 const collapseNav = () => {
