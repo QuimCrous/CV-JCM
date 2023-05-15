@@ -46,9 +46,9 @@
               data-out="fadeOutUp"
             >
               <li>
-                <NuxtLink to="/">
+                <router-link to="/">
                   <div class="menu-name">Home</div>
-                </NuxtLink>
+                </router-link>
               </li>
               <li>
                 <a class="smooth-menu" href="#blog">Blog</a>
