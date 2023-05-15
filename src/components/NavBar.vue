@@ -86,7 +86,7 @@
         <div class="menu">
           <ul class="nav">
             <li>
-              <a class="smooth-menu" href="#home">
+              <a class="smooth-menu" href="#home" @click.prevent>
                 <i class="fas fa-home"></i>
                 <div class="menu-name">Home</div>
               </a>
