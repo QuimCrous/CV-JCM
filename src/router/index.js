@@ -18,6 +18,9 @@ const router = createRouter({
       component: () => import("../views/BlogView.vue"),
     },
   ],
+  afterEach: () => {
+    window.location.reload();
+  },
 });
 
 export default router;
