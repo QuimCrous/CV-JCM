@@ -1,37 +1,35 @@
 <template>
-  <div>
-    <BlogNav />
-    <!-- Start Blog 
+  <BlogNav />
+  <!-- Start Blog 
     ============================================= -->
-    <div
-      id="blog"
-      class="blog-style-one-area blog-area default-padding-top bottom-less mb-5 pb-5"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 offset-lg-2">
-            <div class="site-heading text-center">
-              <h4 class="sub-title">News</h4>
-              <h2 class="title">Latest from blog</h2>
-              <div class="devider"></div>
-            </div>
+  <div
+    id="blog"
+    class="blog-style-one-area blog-area default-padding-top bottom-less mb-5 pb-5"
+  >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="site-heading text-center">
+            <h4 class="sub-title">News</h4>
+            <h2 class="title">Latest from blog</h2>
+            <div class="devider"></div>
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <!-- Single item -->
-          <BlogItem v-for="item in response" :item="item" />
-          <!-- End Single item -->
-        </div>
-      </div>
-
-      <!-- Start Blog Single Modal -->
-      <!-- End Blog Single Modal -->
-      <BlogModal v-for="modal in respModal" :modal="modal" />
     </div>
-    <!-- End Blog -->
+    <div class="container">
+      <div class="row">
+        <!-- Single item -->
+        <BlogItem v-for="item in response" :item="item" />
+        <!-- End Single item -->
+      </div>
+    </div>
+
+    <!-- Start Blog Single Modal -->
+    <!-- End Blog Single Modal -->
+    <BlogModal v-for="modal in respModal" :modal="modal" />
   </div>
+  <!-- End Blog -->
 </template>
 
 <script setup>
