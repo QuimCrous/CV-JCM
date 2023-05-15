@@ -45,22 +45,52 @@
               data-out="fadeOutUp"
             >
               <li>
-                <a class="smooth-menu" href="#home">Home</a>
+                <a
+                  class="smooth-menu"
+                  href="#"
+                  @click.prevent="smoothScroll('home')"
+                  >Home</a
+                >
               </li>
               <li>
-                <a class="smooth-menu" href="#blog">Blog</a>
+                <a
+                  class="smooth-menu"
+                  href="#"
+                  @click.prevent="smoothScroll('blog')"
+                  >Blog</a
+                >
               </li>
               <li>
-                <a class="smooth-menu" href="#services">Services</a>
+                <a
+                  class="smooth-menu"
+                  href="#"
+                  @click.prevent="smoothScroll('services')"
+                  >Services</a
+                >
               </li>
               <li>
-                <a class="smooth-menu" href="#portfolio">Portfolio</a>
+                <a
+                  class="smooth-menu"
+                  href="#"
+                  @click.prevent="smoothScroll('portfolio')"
+                  >Portfolio</a
+                >
               </li>
               <li>
-                <a class="smooth-menu" href="#about">About</a>
+                <a
+                  class="smooth-menu"
+                  href="#"
+                  @click.prevent="smoothScroll('about')"
+                  >About</a
+                >
               </li>
               <li>
-                <a class="smooth-menu" href="#contact">Contact</a>
+                <a
+                  class="smooth-menu"
+                  href="#"
+                  @click.prevent="smoothScroll('contact')"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
