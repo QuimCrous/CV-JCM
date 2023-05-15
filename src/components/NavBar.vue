@@ -14,7 +14,6 @@
               type="button"
               class="navbar-toggle"
               data-target="#navbar-menu"
-              @click="collapseNav"
             >
               <i class="fa fa-bars"></i>
             </button>
@@ -46,10 +45,10 @@
               data-out="fadeOutUp"
             >
               <li>
-                <a class="smooth-menu" href="#blog">Blog</a>
+                <a class="smooth-menu" href="#home">Home</a>
               </li>
               <li>
-                <a class="smooth-menu" href="#home">Home</a>
+                <a class="smooth-menu" href="#blog">Blog</a>
               </li>
               <li>
                 <a class="smooth-menu" href="#services">Services</a>
@@ -87,15 +86,15 @@
         <div class="menu">
           <ul class="nav">
             <li>
-              <a class="smooth-menu" href="#blog">
-                <i class="fas fa-file-alt"></i>
-                <div class="menu-name">Blog</div>
-              </a>
-            </li>
-            <li>
               <a class="smooth-menu" href="#home">
                 <i class="fas fa-home"></i>
                 <div class="menu-name">Home</div>
+              </a>
+            </li>
+            <li>
+              <a class="smooth-menu" href="#blog">
+                <i class="fas fa-file-alt"></i>
+                <div class="menu-name">Blog</div>
               </a>
             </li>
             <li>
