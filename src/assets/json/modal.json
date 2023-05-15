@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "modalId": "doneModal",
+    "bigImgSrc": "../_nuxt/assets/img/portfolioimg/web_task_1.png",
+    "projectType": "Website task app",
+    "date": "24 February, 2023",
+    "title": "DONE! task app",
+    "description": [
+      "This is my finalterm project of the FrontEnd web development bootcamp from Ironhack. The purpose of this project is to demonstrate the knowledge acquired as a web developer and teach everything I have learned throughout the course. I have created the website using the VUE framework and the Tailwind library to style it, as well as some other libraries to add functionality."
+    ],
+    "checklist": {
+      "titleOne": "VUE framework",
+      "descriptionOne": [
+        "Vue.js is a popular JavaScript framework for building user interfaces and single-page applications. It was created by Evan You in 2014 and has since gained a large and active community of developers. One of the main features of Vue.js is its reactivity system, which allows you to easily build dynamic and interactive user interfaces.",
+        "This is achieved using a virtual DOM and a reactive data binding system, which automatically updates the view whenever the data changes. Vue.js also has a number of other powerful features, including a robust component system, built-in support for routing and state management, and a flexible and intuitive template syntax. Additionally, Vue.js is highly modular and can be easily integrated with other libraries and tools. Overall, Vue.js is a great choice for building modern, responsive, and highly interactive web applications."
+      ],
+      "titleTwo": "Tailwind",
+      "descriptionTwo": [
+        "Tailwind CSS is a popular utility-first CSS framework for building modern, responsive websites. It provides a set of pre-defined CSS classes that can be used to style HTML elements without having to write custom CSS code. This approach allows developers to quickly prototype and build UI components by selecting and combining pre-defined classes.",
+        "Tailwind CSS is highly customizable and can be configured to include only the styles that are actually used in the project, resulting in smaller CSS file sizes and faster page load times. Overall, Tailwind CSS can help developers achieve a consistent and professional look for their websites with less CSS code and faster development times."
+      ]
+    },
+    "bigDescription": [
+      "The web has: A SignUp and SignIn components that allows the user to register and connects to the database in Supabase to save the user. A Home view showing the Nav component, NewTask, and TaskItem. This allows the user to move between the different views with the Nav, add new tasks and display the tasks that are saved in the database that are linked to the user. A Profile view that displays an avatar and other user data and is connected to the Edit view that allows you to upload an image to change the avatar and other fields displayed in the Profile view. A Calendar view that, apart from the Nav, has a calendar that shows the days and if tasks have been completed that day, the color of that day is highlighted. It also has a dropdown selector that shows us an image that represents a status response from HTTP calls. This is connected to the HTTP.cats website."
+    ],
+    "smallImgSrcOne": "../_nuxt/assets/img/portfolioimg/web_task_2.png",
+    "smallImgSrcTwo": "../_nuxt/assets/img/portfolioimg/web_task_4.png",
+    "url": "https://task-web-ironhack.vercel.app/auth/login",
+    "link": "https://task-web-ironhack.vercel.app/auth/login"
+  },
+  {
+    "id": 2,
+    "modalId": "onlineBankApiModal",
+    "bigImgSrc": "../_nuxt/assets/img/portfolioimg/online_bank_api_2.png",
+    "projectType": "online bank api",
+    "date": "28 October, 2022",
+    "title": "Online Bank",
+    "description": [
+      "This is my final project from the IronHack bootcamp. It's a RESTapi of Online Bank Api done with spring using some dependencies as Java dev tools, Security, Jdbc, Jpa, Web, MySQL, Lombock, validation and jackson. I didn't put many comments in my code to keep it clean hoping you can get all missing information here in the readme."
+    ],
+    "checklist": {
+      "titleOne": "Spring framework",
+      "descriptionOne": [
+        "Spring Framework is a popular open-source application framework for Java. It provides a comprehensive programming and configuration model for modern Java-based enterprise applications. It is based on the principles of dependency injection and inversion of control, which simplify the development of robust, scalable, and maintainable applications. Spring Framework provides a wide range of modules for different functionalities such as web, data access, messaging, security, and testing. These modules can be used individually or together to build a complete application."
+      ],
+      "titleTwo": "MySQL database",
+      "descriptionTwo": [
+        "MySQL is a popular open-source relational database management system (RDBMS) that provides a powerful and flexible platform for storing, organizing, and retrieving data. MySQL is widely used for web applications, data warehousing, e-commerce, and other applications that require high-performance, scalable, and reliable data storage. MySQL supports a wide range of data types, including numerical, text, date/time, and binary data, and provides a variety of features for data security, backup and recovery, and performance optimization.",
+        "MySQL can be used with various programming languages, including Java, PHP, Python, and C++, and is supported on multiple operating systems, including Linux, Windows, and macOS. MySQL is widely regarded as a robust, reliable, and cost-effective database management system that can handle both small and large-scale data-intensive applications."
+      ]
+    },
+    "bigDescription": [
+      "The project includes three packages that represent different models, namely accounts, users, and transactions. The accounts package includes an abstract parent class called Account, which has common properties for all account types, as well as models for Checking Account, Credit Card, Saving Account, and Student Checking Account.",
+      "The users package contains an abstract parent class called User, with three child classes: Admin, Account Holder, and Admin. It also includes a model of Role for security purposes.",
+      "The transaction package includes a simple model that saves information on all transactions made for AccountHolders and Third Party. An Enum has been used to indicate the two statuses that can be applied to an account: ACTIVE and FROZEN. The project also uses two embedables: the Money class and the Address class.",
+      "A package containing all the repositories of all model classes has been added, and another package named Security contains the CustomUserDetails and the SecurityConfiguration classes used for security (Login accounts). The Service package contains all the services and interfaces relative to the models. The AccountHolderService, AdminService, and ThirdPartyUserService contain methods with the logic needed to make the API functional.",
+      "The Controllers package contains different controllers used to connect the methods done in the services with a URL, so we can interact with the API using a browser or other applications. A Test package has been created to test the different methods to ensure they work correctly and throw the expected errors. Security has also been tested by adding a validation in the tests to prove the user was in the database. Some methods are not tested because they are not needed to make the API work. Lastly, the project includes a bankapi.sql with the schema and a pom.xml file with all the dependencies."
+    ],
+    "smallImgSrcOne": "../_nuxt/assets/img/portfolioimg/online_bank_api.png",
+    "smallImgSrcTwo": "../_nuxt/assets/img/portfolioimg/online_bank_api_3.png",
+    "url": "https://github.com/QuimCrous/online-bank-api",
+    "link": "GitHub Repo Link"
+  },
+  {
+    "id": 3,
+    "modalId": "circleWebModal",
+    "bigImgSrc": "../_nuxt/assets/img/portfolioimg/circle_web_1.png",
+    "projectType": "Elemental web",
+    "date": "3 February, 2022",
+    "title": "Circle Web",
+    "description": [
+      "This is my midterm project for the bootcamp I am taking, which is a web page designed to showcase my frontend programming skills and demonstrate the progress I have made since starting the bootcamp. I created the webpage using HTML, CSS, and JavaScript. The page includes an index with various sections, a button at the end that returns the user to the top of the page, a nav-bar with buttons that redirect or send users to other pages, and a skew effect that is activated when the user scrolls the page. The project page features a main section that displays an article and other sections. The data displayed is loaded using JavaScript, which accesses a public API using fetch. The contact page contains a form that collects user data, and the about page features a flip-card with information about me and several YouTube song iframes."
+    ],
+    "checklist": {
+      "titleOne": "HTML and CSS",
+      "descriptionOne": [
+        "HTML (HyperText Markup Language) is a markup language used to create the structure and content of web pages. It consists of a series of tags and attributes that define the various elements on a web page, such as headings, paragraphs, images, and links. HTML allows developers to create a semantic and accessible website structure that can be rendered and displayed by web browsers. CSS (Cascading Style Sheets) is a style sheet language used to control the presentation and layout of HTML and other markup languages. It allows developers to define the visual style of a web page, including the font, color, spacing, and layout of elements. CSS provides a powerful and flexible way to create visually appealing and responsive web designs that can adapt to different screen sizes and devices."
+      ],
+      "titleTwo": "JavaScript",
+      "descriptionTwo": [
+        "JavaScript is a high-level, dynamic programming language used to create interactive and dynamic effects on web pages. It is commonly used for client-side scripting to add functionality and interactivity to web pages, such as form validation, event handling, and animations. JavaScript can also be used for server-side scripting and developing web applications and APIs. It is one of the most widely used programming languages on the web, and is supported by all modern web browsers."
+      ]
+    },
+    "bigDescription": [
+      "For this project, I have used HTML and CSS to style the web page and JavaScript for the logic that gives it dynamism. In this case, I have not used any external libraries or frameworks. The code is written using Visual Studio Code, along with Git for version control. I have used the JSON Placeholder web to obtain data to feed my web page. Additionally, along with Git, this project is uploaded to my GitHub repository, and I use Vercel to host the page on the web."
+    ],
+    "smallImgSrcOne": "../_nuxt/assets/img/portfolioimg/circle_web_2.png",
+    "smallImgSrcTwo": "../_nuxt/assets/img/portfolioimg/circle_web_3.png",
+    "url": "https://midterm-ironhack-jade.vercel.app",
+    "link": "https://midterm-ironhack-jade.vercel.app"
+  },
+  {
+    "id": 4,
+    "modalId": "codeWarsModal",
+    "bigImgSrc": "../_nuxt/assets/img/portfolioimg/codewars_2.png",
+    "projectType": "Java language project",
+    "date": "In Progress",
+    "title": "Codewars Project",
+    "description": [
+      "This is my project where I will upload my solutions to different CodeWars katas. I will use it to have in a single repository the different solutions I have reached by solving them using Java as the language. My intention is to be able to share it with the world while practicing my skills."
+    ],
+    "checklist": {
+      "titleOne": "Codewars",
+      "descriptionOne": [
+        "Codewars.com is a community-driven platform that provides programming challenges, known as 'kata', to help developers improve their coding skills. The challenges are organized by difficulty level and cover a wide range of programming languages, such as Python, Java, JavaScript, and more. Users can submit their solutions to the challenges and earn points and rankings based on their performance. Codewars also offers social features, allowing users to interact with each other, collaborate on challenges, and learn from one another."
+      ],
+      "titleTwo": "Java",
+      "descriptionTwo": [
+        "Java is a high-level, object-oriented programming language that is designed to be portable, meaning it can run on multiple platforms without the need for recompilation. It was first released by Sun Microsystems in 1995 and has since become one of the most popular programming languages in use today. Java is known for its simplicity, robustness, and security features, making it ideal for developing enterprise-level applications, web applications, mobile apps, and more. It uses a virtual machine called the Java Virtual Machine (JVM) to execute code, which makes it highly platform-independent. Java also has a large community of developers who contribute to open-source projects and provide support through various forums and resources."
+      ]
+    },
+    "bigDescription": [
+      "This project is constantly in progress since every day I upload the solution of a few 'katas'. Codewars offers a good way to practice your programming skills across a bunch of languages, which helps to maintain or improve one's skills."
+    ],
+    "smallImgSrcOne": "../_nuxt/assets/img/portfolioimg/codewars_3.png",
+    "smallImgSrcTwo": "../_nuxt/assets/img/portfolioimg/codewars_4.png",
+    "url": "https://github.com/QuimCrous/codewars_java_solutions",
+    "link": "GitHub Repo Link"
+  },
+  {
+    "id": 5,
+    "modalId": "crmRenegadosModal",
+    "bigImgSrc": "../_nuxt/assets/img/portfolioimg/crm_renegados_2.png",
+    "projectType": "Java language project",
+    "date": "21 October, 2022",
+    "title": "CRM LBL Trucking Company",
+    "description": [
+      "This project was the third one we did as a team in the backend bootcamp. A CRM with a variety of features that will help the seller keep track of their sales and see various statistics that will allow them to improve their work. In this project, we used GitHub to unify the code of everyone, each working on a part of the code."
+    ],
+    "checklist": {
+      "titleOne": "CRM",
+      "descriptionOne": [
+        "A CRM (Customer Relationship Management) is a software application that helps businesses manage their interactions with customers and prospects. It typically includes features for managing customer data, tracking leads and sales, managing marketing campaigns, and providing analytics and reporting. A CRM system can help businesses improve their customer service, increase sales, and gain insights into customer behavior and preferences. It is often used by sales teams, customer service representatives, and marketing professionals to better understand and engage with customers."
+      ],
+      "titleTwo": "Java",
+      "descriptionTwo": [
+        "Java is a high-level, object-oriented programming language that is designed to be portable, meaning it can run on multiple platforms without the need for recompilation. It was first released by Sun Microsystems in 1995 and has since become one of the most popular programming languages in use today. Java is known for its simplicity, robustness, and security features, making it ideal for developing enterprise-level applications, web applications, mobile apps, and more. It uses a virtual machine called the Java Virtual Machine (JVM) to execute code, which makes it highly platform-independent. Java also has a large community of developers who contribute to open-source projects and provide support through various forums and resources."
+      ]
+    },
+    "bigDescription": [
+      "As a team, we improved a lot together throughout the bootcamp, and this project is the demonstration of everything we learned. We used our skills to create a program that would allow us to keep track of sales from when it is just a contact until the sale is closed. In addition, it has a section where tests are performed on the functionality of the application to verify that everything works correctly."
+    ],
+    "smallImgSrcOne": "../_nuxt/assets/img/portfolioimg/crm_renegados_3.png",
+    "smallImgSrcTwo": "../_nuxt/assets/img/portfolioimg/crm_renegados_4.png",
+    "url": "https://github.com/QuimCrous/Homework3",
+    "link": "GitHub Repo Link"
+  },
+  {
+    "id": 6,
+    "modalId": "j2dHackatonModal",
+    "bigImgSrc": "../_nuxt/assets/img/portfolioimg/hackaton2022/hack_2.png",
+    "projectType": "Java language project",
+    "date": "31 October, 2022",
+    "title": "Hackaton Jump2Digital",
+    "description": [
+      "I created a Spring project to solve the various tasks requested during the Hackathon 2022. We were asked to create a database using the objects in a JSON file and then create a few endpoints to access the data and make statistical queries."
+    ],
+    "checklist": {
+      "titleOne": "Spring framework",
+      "descriptionOne": [
+        "Spring Framework is a popular open-source application framework for Java. It provides a comprehensive programming and configuration model for modern Java-based enterprise applications. It is based on the principles of dependency injection and inversion of control, which simplify the development of robust, scalable, and maintainable applications. Spring Framework provides a wide range of modules for different functionalities such as web, data access, messaging, security, and testing. These modules can be used individually or together to build a complete application."
+      ],
+      "titleTwo": "MySQL database",
+      "descriptionTwo": [
+        "MySQL is a popular open-source relational database management system (RDBMS) that provides a powerful and flexible platform for storing, organizing, and retrieving data. MySQL is widely used for web applications, data warehousing, e-commerce, and other applications that require high-performance, scalable, and reliable data storage. MySQL supports a wide range of data types, including numerical, text, date/time, and binary data, and provides a variety of features for data security, backup and recovery, and performance optimization.",
+        "MySQL can be used with various programming languages, including Java, PHP, Python, and C++, and is supported on multiple operating systems, including Linux, Windows, and macOS. MySQL is widely regarded as a robust, reliable, and cost-effective database management system that can handle both small and large-scale data-intensive applications."
+      ]
+    },
+    "bigDescription": [
+      "The project is created using Spring Framework and using a MySQL database. For each task requested, I created endpoints that returned the requested data in a JSON object.",
+      "TASK 1: In this task, I first created a database schema using MySQL Workbench, and then used a Java IDE to create the entity and repository for the database. After that, I created a REST controller and service so that I could access and manipulate the data. In the main method, I used the command-line-runner method to feed the database with the JSON file provided, using the save method created in the service. Finally, I checked everything using Postman by accessing the endpoint I created to check all data from the database (GET URL: /all-companies)",
+      "TASK 2: I created a native query in the repository to retrieve all companies in the database grouped by size in descending order. After that, I created a method in the service and then in the controller to access this data. I also checked the result in Postman by accessing the endpoint that I created to retrieve data by company size (GET URL: /by-size).",
+      "TASK 3: To retrieve all companies ordered by their founded date, I added a simple JPA query in the repository. Then, I created a service and a controller method to access this data. Finally, I checked the result in Postman by accessing the endpoint I created to retrieve data by founded date (GET URL: /get-companies-by-founded).",
+      "TASK 4: In this task, I created three JPQL queries to retrieve a list of object arrays containing the requested information. The first query returns the number of companies by industry, the second returns the number of companies by size, and the last one returns the number of companies by their founded date. Additionally, I created a method in the service that switches between the three queries based on the value of a string method argument. In the controller, I added a request parameter that takes a string value, so that with the same endpoint, you can access one of the three queries at a time. Finally, I checked the result in Postman by accessing the endpoint I created for retrieving data by industry, size, or founded date (GET URL: /count-by)."
+    ],
+    "smallImgSrcOne": "../_nuxt/assets/img/portfolioimg/hackaton2022/hack_3.png",
+    "smallImgSrcTwo": "../_nuxt/assets/img/portfolioimg/hackaton2022/hack_4.png",
+    "url": "https://github.com/QuimCrous/hackaton2022",
+    "link": "GitHub Repo Link"
+  }
+]

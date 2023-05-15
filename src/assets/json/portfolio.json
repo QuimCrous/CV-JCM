@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "imageSrc": "../src/assets/img/portfolioimg/web_task_3.png",
+    "title": "DONE!",
+    "description": "Task web app",
+    "dataBsTarget": "#doneModal"
+  },
+  {
+    "id": 2,
+    "imageSrc": "../src/assets/img/portfolioimg/online_bank_api.png",
+    "title": "Bank Online",
+    "description": "Online Bank API (Java)",
+    "dataBsTarget": "#onlineBankApiModal"
+  },
+  {
+    "id": 3,
+    "imageSrc": "../src/assets/img/portfolioimg/circle_web.png",
+    "title": "Circle",
+    "description": "Circle web app",
+    "dataBsTarget": "#circleWebModal"
+  },
+  {
+    "id": 4,
+    "imageSrc": "../src/assets/img/portfolioimg/codewars_1.png",
+    "title": "Codewars Project",
+    "description": "Codewars' solutions repo",
+    "dataBsTarget": "#codeWarsModal"
+  },
+  {
+    "id": 5,
+    "imageSrc": "../src/assets/img/portfolioimg/crm_renegados_1.png",
+    "title": "CRM LBL Trucking Company",
+    "description": "CRM Java",
+    "dataBsTarget": "#crmRenegadosModal"
+  },
+  {
+    "id": 6,
+    "imageSrc": "../src/assets/img/portfolioimg/hackaton2022/hack_1.png",
+    "title": "Hackaton Jump2Digital",
+    "description": "Tasks for J2D hackaton 2022",
+    "dataBsTarget": "#j2dHackatonModal"
+  }
+]

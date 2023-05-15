@@ -1,0 +1,3 @@
+portfolio.json -> 800x600
+
+modal.json -> 1500x700, 800x600, 800x600

@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "modalId": "webDemoModal",
+    "srcImgOne": "../_nuxt/assets/img/blogimg/webdemo/cv_portfolio_capt.gif",
+    "pOne": "Good morning world! Today I want to show you a small demo of my portfolio that I'm creating with Nuxt. I'm using a base template that uses the Bootstrap and jQuery library.",
+    "pTwo": "I still have many things to add and improve, but the result is making all the effort worthwhile!",
+    "pThree": "",
+    "blockquote": "Your web portfolio is not just a showcase of your work, but a reflection of your skills and passion as a fullstack developer.",
+    "profileImg": "../_nuxt/assets/img/blogimg/Quim1.png",
+    "profileName": "Quim",
+    "profileInfo": "Fullstack developer, entrepreneur, and eager to continue learning and improving in this technological world that keeps advancing.",
+    "tags": ["web", "developer", "nuxt", "portfolio"]
+  },
+  {
+    "id": 2,
+    "modalId": "projectUpdate1303Modal",
+    "srcImgOne": "../_nuxt/assets/img/blogimg/proj_up_1303/proj_up_2.png",
+    "pOne": "Happy Monday, world! As usual, Mondays mark the beginning of our workweek, and I continue to develop my projects. I am adding some kata solutions to my codewars repository while learning how the agile methodology works.",
+    "pTwo": "In addition, I am fixing some errors on my personal portfolio website, which I hope to share with all of you soon. Remember, it is us who can change our future!",
+    "pThree": "",
+    "blockquote": "'Continuous improvement is better than delayed perfection.' - Mark Twain. This quote suggests that it's more important to continuously work on improving your projects on GitHub rather than striving for perfection and delaying progress. By constantly seeking to improve, you can make incremental changes that will eventually lead to a better end product.",
+    "profileImg": "../_nuxt/assets/img/blogimg/Quim1.png",
+    "profileName": "Quim",
+    "profileInfo": "Fullstack developer, entrepreneur, and eager to continue learning and improving in this technological world that keeps advancing.",
+    "tags": ["codewars", "learning", "future", "share", "projects"]
+  },
+  {
+    "id": 3,
+    "modalId": "projectUpdate2803Modal",
+    "srcImgOne": "../_nuxt/assets/img/blogimg/proj_up_2803/post_img.jpg",
+    "pOne": "Good morning World! It's already Tuesday and we're still on the job hunt while I work on my projects.💪 I have my personal website that will serve as almost a complete portfolio, so I hope to be able to show it to you in a few days.",
+    "pTwo": "On the other hand, we continue to make progress on the joint project that I am working on with @anya_chocolat and Danny, who has joined our team. We're creating a web application about Genshin Impact, and we're using all the tools at our disposal while learning new ones like Jira.",
+    "pThree": "We just have to keep moving forward! 💪",
+    "blockquote": "'Continuous improvement is better than delayed perfection.' - Mark Twain. This quote suggests that it's more important to continuously work on improving your projects on GitHub rather than striving for perfection and delaying progress. By constantly seeking to improve, you can make incremental changes that will eventually lead to a better end product.",
+    "profileImg": "../_nuxt/assets/img/blogimg/Quim1.png",
+    "profileName": "Quim",
+    "profileInfo": "Fullstack developer, entrepreneur, and eager to continue learning and improving in this technological world that keeps advancing.",
+    "tags": ["coding", "project", "vue", "jira", "github", "nuxt", "vscode"]
+  }
+]
