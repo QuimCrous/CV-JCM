@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "imageSrc": "../src/assets/img/portfolioimg/web_task_3.png",
+    "imageSrc": "assets/img/portfolioimg/web_task_3.png",
     "title": "DONE!",
     "description": "Task web app",
     "dataBsTarget": "#doneModal"
