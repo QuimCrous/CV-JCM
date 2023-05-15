@@ -20,6 +20,7 @@ const router = createRouter({
   ],
   afterEach: () => {
     window.location.reload();
+    console.log("patata");
   },
 });
 
