@@ -26,7 +26,12 @@
               </span>
             </h3>
             <div class="button mt-55">
-              <a class="btn btn-md circle btn-dark" href="#resume">My Resume</a>
+              <a
+                class="btn btn-md circle btn-dark"
+                href="#"
+                @click.prevent="smoothScroll('resume')"
+                >My Resume</a
+              >
             </div>
           </div>
 
@@ -65,3 +70,10 @@
   </div>
   <!-- End Banner -->
 </template>
+
+<script setup>
+function smoothScroll(target) {
+  const element = document.getElementById(target);
+  element.scrollIntoView({ behavior: "smooth" });
+}
+</script>
