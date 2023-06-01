@@ -19,8 +19,12 @@
     <div class="container">
       <div class="row">
         <!-- Single item -->
-        <BlogItem v-for="item in response" :item="item" />
+        <BlogItem v-for="item in paginatedItems" :item="item" />
         <!-- End Single item -->
+      </div>
+      <div class="pagination">
+        <button @click="previousPage" :disabled="currentPage === 1" class="btn-class">Previous</button>
+        <button @click="nextPage" :disabled="currentPage === totalPages" class="btn-class">Next</button>
       </div>
     </div>
 
@@ -38,11 +42,50 @@ import BlogJSON from "../assets/json/blog.json";
 import BlogModalJSON from "../assets/json/blogmodal.json";
 
 import { ref, onUpdated, watchEffect, reactive } from "vue";
+import { computed } from "vue";
+
 const response = ref(null);
 const respModal = ref(null);
+const currentPage = ref(1);
+const itemsPerPage = 6; // Cambia este valor según tus necesidades
 
-response.value = BlogJSON;
+response.value = BlogJSON.reverse();
 respModal.value = BlogModalJSON;
+
+const paginatedItems = computed(() => {
+  const start = (currentPage.value - 1) * itemsPerPage;
+  const end = start + itemsPerPage;
+  return response.value.slice(start, end);
+});
+
+
+const totalPages = computed(() => Math.ceil(response.value.length / itemsPerPage));
+
+function previousPage() {
+  if (currentPage.value > 1) {
+    currentPage.value--;
+  }
+}
+
+function nextPage() {
+  if (currentPage.value < totalPages.value) {
+    currentPage.value++;
+  }
+}
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.btn-class {
+  background-color: #FF014F;
+  width: 100px;
+  color:whitesmoke;
+  border-radius: 10px;
+  border-color: #FF014F;
+  
+}
+
+.btn-class:disabled {
+  background-color:  #ff014d88;
+}
+</style>
+
