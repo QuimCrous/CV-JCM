@@ -178,5 +178,41 @@
     "smallImgSrcTwo": "assets/img/portfolioimg/hackaton2022/hack_4.png",
     "url": "https://github.com/QuimCrous/hackaton2022",
     "link": "GitHub Repo Link"
+  },
+  {
+    "id": 7,
+    "modalId": "cvPortfolio",
+    "bigImgSrc": "assets/img/portfolioimg/cvportfolio/cv_1.png",
+    "projectType": "Portfolio Website",
+    "date": "16 May, 2023",
+    "title": "CV Portfolio",
+    "description": [
+      "This is my web project designed to be used as a portfolio. I have created it using the Vue.js framework and utilize a JSON file to store the data displayed on the website."
+    ],
+    "checklist": {
+      "titleOne": "VUE framework",
+      "descriptionOne": [
+        "Vue.js is a popular JavaScript framework for building user interfaces and single-page applications. It was created by Evan You in 2014 and has since gained a large and active community of developers. One of the main features of Vue.js is its reactivity system, which allows you to easily build dynamic and interactive user interfaces.",
+        "This is achieved using a virtual DOM and a reactive data binding system, which automatically updates the view whenever the data changes. Vue.js also has a number of other powerful features, including a robust component system, built-in support for routing and state management, and a flexible and intuitive template syntax. Additionally, Vue.js is highly modular and can be easily integrated with other libraries and tools. Overall, Vue.js is a great choice for building modern, responsive, and highly interactive web applications."
+      ],
+      "titleTwo": "Tailwind",
+      "descriptionTwo": [
+        "Tailwind CSS is a popular utility-first CSS framework for building modern, responsive websites. It provides a set of pre-defined CSS classes that can be used to style HTML elements without having to write custom CSS code. This approach allows developers to quickly prototype and build UI components by selecting and combining pre-defined classes.",
+        "Tailwind CSS is highly customizable and can be configured to include only the styles that are actually used in the project, resulting in smaller CSS file sizes and faster page load times. Overall, Tailwind CSS can help developers achieve a consistent and professional look for their websites with less CSS code and faster development times."
+      ]
+    },
+    "bigDescription": [
+      "A programmer portfolio website is a platform where a programmer can showcase their skills, experience, and projects to potential clients or employers. It serves as a digital representation of their work and expertise in the field of programming.",
+      "About Me: A section that provides a brief introduction of the programmer, highlighting their background, education, and professional experience. It may also include their interests and passion for programming.",
+      "Skills: A list or visual representation of the programming languages, frameworks, tools, and technologies that the programmer is proficient in. This section demonstrates the breadth and depth of their technical expertise.",
+      "Projects: This section showcases the programmer's past projects and contributions. Each project is accompanied by a description, highlighting the problem it solves, the technologies used, and the programmer's role in its development. It may also include links to live demos or repositories where the code can be accessed.",
+      "Resume: A view the programmer's resume, providing a comprehensive overview of their professional background, education, skills, and achievements.",
+      "Contact Information: A way for potential clients or employers to get in touch with the programmer. This may include a contact form, email address, or links to professional social media profiles (such as LinkedIn or GitHub).",
+      "Blog: A blog section where the programmer shares their knowledge, insights, and experiences in the field of programming. This demonstrates their expertise and passion for continuous learning."
+    ],
+    "smallImgSrcOne": "assets/img/portfolioimg/cvportfolio/cv_3.png",
+    "smallImgSrcTwo": "assets/img/portfolioimg/cvportfolio/cv_4.png",
+    "url": "https://github.com/QuimCrous/cv-jcm",
+    "link": "GitHub Repo Link"
   }
 ]

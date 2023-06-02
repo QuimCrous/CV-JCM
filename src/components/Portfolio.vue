@@ -10,7 +10,7 @@ const respModal = ref(null);
 const currentPage = ref(1);
 const itemsPerPage = 3; // Cambia este valor según tus necesidades
 
-response.value = Portfolio;
+response.value = Portfolio.reverse();
 respModal.value = Modal;
 
 

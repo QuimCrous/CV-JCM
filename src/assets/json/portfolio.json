@@ -40,5 +40,12 @@
     "title": "Hackaton Jump2Digital",
     "description": "Tasks for J2D hackaton 2022",
     "dataBsTarget": "#j2dHackatonModal"
+  },
+  {
+    "id": 7,
+    "imageSrc": "assets/img/portfolioimg/cvportfolio/cv_2.png",
+    "title": "CV Portfolio",
+    "description": "My own web portfolio",
+    "dataBsTarget": "#cvPortfolio"
   }
 ]
