@@ -19,5 +19,12 @@
     "title": "Projects Update",
     "date": "28 March, 2023",
     "dataBsTarget": "#projectUpdate2803Modal"
+  },
+  {
+    "id": 4,
+    "imageSrc": "assets/img/blogimg/proj_up_0606/test1.png",
+    "title": "Projects Update",
+    "date": "06 June, 2023",
+    "dataBsTarget": "#projectUpdate0606Modal"
   }
 ]

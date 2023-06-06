@@ -47,7 +47,7 @@ import { computed } from "vue";
 const response = ref(null);
 const respModal = ref(null);
 const currentPage = ref(1);
-const itemsPerPage = 6; // Cambia este valor según tus necesidades
+const itemsPerPage = 3; // Cambia este valor según tus necesidades
 
 response.value = BlogJSON.reverse();
 respModal.value = BlogModalJSON;

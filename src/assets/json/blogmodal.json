@@ -37,5 +37,18 @@
     "profileName": "Quim",
     "profileInfo": "Fullstack developer, entrepreneur, and eager to continue learning and improving in this technological world that keeps advancing.",
     "tags": ["coding", "project", "vue", "jira", "github", "nuxt", "vscode"]
+  },
+  {
+    "id": 4,
+    "modalId": "projectUpdate0606Modal",
+    "srcImgOne": "assets/img/blogimg/proj_up_0606/test1.png",
+    "pOne": "Good morning, world! It's been too long since my last update here. The job search is like a roller coaster of emotions, with ups and downs, but that won't stop me from moving forward.",
+    "pTwo": "I'm still working on my projects, updating my website, and applying for different job positions. On the other hand, since knowledge has no boundaries, I'm continuing my education in Python and React.JS, as they are highly demanded and useful languages and libraries for web and application development. ",
+    "pThree": "So, I just want to encourage everyone to keep pushing forward! 💪",
+    "blockquote": "'Continuous improvement is better than delayed perfection.' - Mark Twain. This quote suggests that it's more important to continuously work on improving your projects on GitHub rather than striving for perfection and delaying progress. By constantly seeking to improve, you can make incremental changes that will eventually lead to a better end product.",
+    "profileImg": "assets/img/blogimg/Quim1.png",
+    "profileName": "Quim",
+    "profileInfo": "Fullstack developer, entrepreneur, and eager to continue learning and improving in this technological world that keeps advancing.",
+    "tags": ["job", "project", "react", "python", "jobsearch", "development"]
   }
 ]
