@@ -2,9 +2,7 @@
   <div class="blog-style-one mb-30 col-lg-4 col-md-6">
     <div class="item">
       <div class="thumb">
-        <a href="#" data-bs-toggle="modal" data-bs-target="#blogSingleModal"
-          ><img :src="item.imageSrc" alt="Thumb"
-        /></a>
+        <a href="#" data-bs-toggle="modal" :data-bs-target="item.dataBsTarget"><img class="object-fill" :src="item.imageSrc" alt="Thumb"/></a>
       </div>
       <div class="info">
         <h4>

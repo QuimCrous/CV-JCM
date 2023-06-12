@@ -50,5 +50,18 @@
     "profileName": "Quim",
     "profileInfo": "Fullstack developer, entrepreneur, and eager to continue learning and improving in this technological world that keeps advancing.",
     "tags": ["job", "project", "react", "python", "jobsearch", "development"]
+  },
+  {
+    "id": 5,
+    "modalId": "projectUpdate1206Modal",
+    "srcImgOne": "assets/img/blogimg/proj_up_1206/socks_1.jpg",
+    "pOne": "Good morning, everyone in the world! 🌍✨ We're starting the week with energy and enthusiasm. I want to share an update with you about my current situation. First of all, I'm still actively searching for employment, exploring new opportunities, and networking with professionals in the field. I'm excited about the possibilities the future holds and remain committed to finding a position where I can apply my skills and knowledge.",
+    "pTwo": "Additionally, I'm working on various personal projects that allow me to continue growing and learning. In particular, I'm developing a web application where I'm applying my knowledge of VUE.JS and learning some PHP along the way. It's thrilling to see how I can use these technologies to create effective and functional solutions. Today, I'll also be dedicating time to creating a tic-tac-toe game using REACT. I'm following a tutorial that I find both entertaining and comprehensive. It's wonderful to expand my skills and knowledge while having fun creating something new.",
+    "pThree": "Last but not least, I want to share with you a pair of socks that I recently received as a gift. I'm certain they will bring me lots of luck in the tech world! Sometimes, little things can have a big impact, and these socks have become a symbol of my passion and determination in this field. Wishing you all a fantastic Monday and a week full of opportunities and achievements! 💪✨",
+    "blockquote": "'Continuous improvement is better than delayed perfection.' - Mark Twain. This quote suggests that it's more important to continuously work on improving your projects on GitHub rather than striving for perfection and delaying progress. By constantly seeking to improve, you can make incremental changes that will eventually lead to a better end product.",
+    "profileImg": "assets/img/blogimg/Quim1.png",
+    "profileName": "Quim",
+    "profileInfo": "Fullstack developer, entrepreneur, and eager to continue learning and improving in this technological world that keeps advancing.",
+    "tags": ["job", "project", "react", "Luck", "jobsearch", "development"]
   }
 ]
